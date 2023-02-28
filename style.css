@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+header {
+    width: 100vw;
+    height: 100vh;
+    
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fe5d20;
+    padding: 1rem 1rem;
+}
+
+.logo {
+    width: 50px;
+    height: 50px;
+}
+
+nav {
+    display: flex;
+    column-gap: 2rem;
+}
+
+nav a {
+    text-decoration: none;
+    color: #8071d0;
+}
+
+nav a:hover {
+    text-decoration-line: underline;
+    text-decoration-color: white;
+    transition: 0.3s;
+}
+
+.signup {
+    background-color: #ffd8db;
+    color: #a389cc;
+    border-radius: 100px;
+    border-color: pink;
+    border: 1px soild;
+    padding: 0.75rem 2rem;
+    text-align: center;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.signup:hover {
+    background-color: white;
+}
+
+.main {
+    display: flex;
+    height: 100vh;
+    justify-content: centre;
+    align-items: centre;
+    padding: 1rem 2rem;
+    background-color: grey;
+}
+
+h1 {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+p {
+    font-size: 2rem;
+
+    margin-bottom: 5rem;
+}
+
+.button {
+    margin: 1rem 2rem;
+}
+
+.new-account {
+    background-color: #5243c0;
+    color: #ffffff;
+    border-radius: 100px;
+    border-color: pink;
+    border: 1px soild;
+    padding: 0.75rem 2rem;
+    text-align: center;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.new-account:hover {
+    background-color: pink;
+}
+
+.arrow {
+    border-radius: 50%;
+
+    margin-left: 2rem;
+
+    justify-content: space-around;
+}
+
+.table {
+    padding: 2rem 2rem;
+    border-collapse: collapse;
+    border-radius: 50%;
+}
+
+.side-img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin: 0.5rem 0.5rem;
+}
+
+.dmm:hover {
+    background-color: white;
+
+    color: #fed7da;
+}
+
+.blur:hover {
+    background-color: white;
+    color: #fd6534;
+}
+
+.illu:hover {
+    background-color: white;
+    color: #9ed095;
+}
+
+.refund:hover {
+    background-color: white;
+    color: #ffe4a0;
+}
+
+.img-box {
+    /* width: 700px;
+    height: 700px; */
+    margin-top: 2rem;
+    margin-right: 2rem;
+    margin-bottom: 2rem;
+}
